@@ -9,6 +9,7 @@ class Scraper
             binding.pry
   end
   
+  Scraper.new.get_page
   
     def print_courses
     self.make_courses
